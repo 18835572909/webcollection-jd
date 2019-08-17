@@ -1,0 +1,722 @@
+2019/08/13-01:59:00.806507 200c RocksDB version: 5.14.2
+2019/08/13-01:59:00.806507 200c Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/08/13-01:59:00.806507 200c Compile date Jul  6 2018
+2019/08/13-01:59:00.806507 200c DB SUMMARY
+2019/08/13-01:59:00.806507 200c SST files in D:\ProjectToolsJava\workspace1\crawler\jd_book\fetch dir, Total Num: 0, files: 
+2019/08/13-01:59:00.806507 200c Write Ahead Log file in D:\ProjectToolsJava\workspace1\crawler\jd_book\fetch: 
+2019/08/13-01:59:00.806507 200c                         Options.error_if_exists: 0
+2019/08/13-01:59:00.806507 200c                       Options.create_if_missing: 1
+2019/08/13-01:59:00.806507 200c                         Options.paranoid_checks: 1
+2019/08/13-01:59:00.806507 200c                                     Options.env: 0000000000453F80
+2019/08/13-01:59:00.806507 200c                                Options.info_log: 00000000241EE000
+2019/08/13-01:59:00.806507 200c                Options.max_file_opening_threads: 16
+2019/08/13-01:59:00.806507 200c                              Options.statistics: 0000000000000000
+2019/08/13-01:59:00.806507 200c                               Options.use_fsync: 0
+2019/08/13-01:59:00.806507 200c                       Options.max_log_file_size: 0
+2019/08/13-01:59:00.806507 200c                  Options.max_manifest_file_size: 18446744073709551615
+2019/08/13-01:59:00.806507 200c                   Options.log_file_time_to_roll: 0
+2019/08/13-01:59:00.806507 200c                       Options.keep_log_file_num: 1000
+2019/08/13-01:59:00.806507 200c                    Options.recycle_log_file_num: 0
+2019/08/13-01:59:00.806507 200c                         Options.allow_fallocate: 1
+2019/08/13-01:59:00.806507 200c                        Options.allow_mmap_reads: 0
+2019/08/13-01:59:00.806507 200c                       Options.allow_mmap_writes: 0
+2019/08/13-01:59:00.806507 200c                        Options.use_direct_reads: 0
+2019/08/13-01:59:00.806507 200c                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/08/13-01:59:00.806507 200c          Options.create_missing_column_families: 0
+2019/08/13-01:59:00.806507 200c                              Options.db_log_dir: 
+2019/08/13-01:59:00.806507 200c                                 Options.wal_dir: D:\ProjectToolsJava\workspace1\crawler\jd_book\fetch
+2019/08/13-01:59:00.806507 200c                Options.table_cache_numshardbits: 6
+2019/08/13-01:59:00.806507 200c                      Options.max_subcompactions: 1
+2019/08/13-01:59:00.806507 200c                  Options.max_background_flushes: -1
+2019/08/13-01:59:00.806507 200c                         Options.WAL_ttl_seconds: 0
+2019/08/13-01:59:00.806507 200c                       Options.WAL_size_limit_MB: 0
+2019/08/13-01:59:00.806507 200c             Options.manifest_preallocation_size: 4194304
+2019/08/13-01:59:00.806507 200c                     Options.is_fd_close_on_exec: 1
+2019/08/13-01:59:00.806507 200c                   Options.advise_random_on_open: 1
+2019/08/13-01:59:00.807507 200c                    Options.db_write_buffer_size: 0
+2019/08/13-01:59:00.807507 200c                    Options.write_buffer_manager: 0000000024115460
+2019/08/13-01:59:00.807507 200c         Options.access_hint_on_compaction_start: 1
+2019/08/13-01:59:00.807507 200c  Options.new_table_reader_for_compaction_inputs: 0
+2019/08/13-01:59:00.807507 200c           Options.random_access_max_buffer_size: 1048576
+2019/08/13-01:59:00.807507 200c                      Options.use_adaptive_mutex: 0
+2019/08/13-01:59:00.807507 200c                            Options.rate_limiter: 0000000000000000
+2019/08/13-01:59:00.807507 200c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/08/13-01:59:00.807507 200c                       Options.wal_recovery_mode: 2
+2019/08/13-01:59:00.807507 200c                  Options.enable_thread_tracking: 0
+2019/08/13-01:59:00.807507 200c                  Options.enable_pipelined_write: 0
+2019/08/13-01:59:00.807507 200c         Options.allow_concurrent_memtable_write: 1
+2019/08/13-01:59:00.807507 200c      Options.enable_write_thread_adaptive_yield: 1
+2019/08/13-01:59:00.807507 200c             Options.write_thread_max_yield_usec: 100
+2019/08/13-01:59:00.807507 200c            Options.write_thread_slow_yield_usec: 3
+2019/08/13-01:59:00.807507 200c                               Options.row_cache: None
+2019/08/13-01:59:00.807507 200c                              Options.wal_filter: None
+2019/08/13-01:59:00.807507 200c             Options.avoid_flush_during_recovery: 0
+2019/08/13-01:59:00.807507 200c             Options.allow_ingest_behind: 0
+2019/08/13-01:59:00.807507 200c             Options.preserve_deletes: 0
+2019/08/13-01:59:00.807507 200c             Options.two_write_queues: 0
+2019/08/13-01:59:00.807507 200c             Options.manual_wal_flush: 0
+2019/08/13-01:59:00.807507 200c             Options.max_background_jobs: 2
+2019/08/13-01:59:00.807507 200c             Options.max_background_compactions: -1
+2019/08/13-01:59:00.807507 200c             Options.avoid_flush_during_shutdown: 0
+2019/08/13-01:59:00.807507 200c           Options.writable_file_max_buffer_size: 1048576
+2019/08/13-01:59:00.807507 200c             Options.delayed_write_rate : 16777216
+2019/08/13-01:59:00.807507 200c             Options.max_total_wal_size: 0
+2019/08/13-01:59:00.807507 200c             Options.delete_obsolete_files_period_micros: 21600000000
+2019/08/13-01:59:00.807507 200c                   Options.stats_dump_period_sec: 600
+2019/08/13-01:59:00.807507 200c                          Options.max_open_files: -1
+2019/08/13-01:59:00.807507 200c                          Options.bytes_per_sync: 0
+2019/08/13-01:59:00.807507 200c                      Options.wal_bytes_per_sync: 0
+2019/08/13-01:59:00.807507 200c       Options.compaction_readahead_size: 0
+2019/08/13-01:59:00.807507 200c Compression algorithms supported:
+2019/08/13-01:59:00.807507 200c 	kZSTD supported: 0
+2019/08/13-01:59:00.807507 200c 	kSnappyCompression supported: 0
+2019/08/13-01:59:00.807507 200c 	kBZip2Compression supported: 0
+2019/08/13-01:59:00.807507 200c 	kZlibCompression supported: 0
+2019/08/13-01:59:00.807507 200c 	kLZ4Compression supported: 0
+2019/08/13-01:59:00.807507 200c 	kXpressCompression supported: 0
+2019/08/13-01:59:00.807507 200c 	kLZ4HCCompression supported: 0
+2019/08/13-01:59:00.807507 200c 	kZSTDNotFinalCompression supported: 0
+2019/08/13-01:59:00.807507 200c Fast CRC32 supported: Supported on x86
+2019/08/13-01:59:00.810507 200c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:222] Creating manifest 1 
+2019/08/13-01:59:01.243532 200c [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000001
+2019/08/13-01:59:01.245532 200c [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/08/13-01:59:01.245532 200c               Options.comparator: leveldb.BytewiseComparator
+2019/08/13-01:59:01.245532 200c           Options.merge_operator: None
+2019/08/13-01:59:01.245532 200c        Options.compaction_filter: None
+2019/08/13-01:59:01.245532 200c        Options.compaction_filter_factory: None
+2019/08/13-01:59:01.245532 200c         Options.memtable_factory: SkipListFactory
+2019/08/13-01:59:01.245532 200c            Options.table_factory: BlockBasedTable
+2019/08/13-01:59:01.245532 200c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000024167830)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000000241841F0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/08/13-01:59:01.245532 200c        Options.write_buffer_size: 67108864
+2019/08/13-01:59:01.245532 200c  Options.max_write_buffer_number: 2
+2019/08/13-01:59:01.245532 200c          Options.compression: NoCompression
+2019/08/13-01:59:01.245532 200c                  Options.bottommost_compression: Disabled
+2019/08/13-01:59:01.246532 200c       Options.prefix_extractor: nullptr
+2019/08/13-01:59:01.246532 200c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/08/13-01:59:01.246532 200c             Options.num_levels: 7
+2019/08/13-01:59:01.246532 200c        Options.min_write_buffer_number_to_merge: 1
+2019/08/13-01:59:01.246532 200c     Options.max_write_buffer_number_to_maintain: 0
+2019/08/13-01:59:01.246532 200c            Options.compression_opts.window_bits: -14
+2019/08/13-01:59:01.246532 200c                  Options.compression_opts.level: -1
+2019/08/13-01:59:01.246532 200c               Options.compression_opts.strategy: 0
+2019/08/13-01:59:01.246532 200c         Options.compression_opts.max_dict_bytes: 0
+2019/08/13-01:59:01.246532 200c         Options.compression_opts.zstd_max_train_bytes: 0
+2019/08/13-01:59:01.246532 200c      Options.level0_file_num_compaction_trigger: 4
+2019/08/13-01:59:01.246532 200c          Options.level0_slowdown_writes_trigger: 20
+2019/08/13-01:59:01.246532 200c              Options.level0_stop_writes_trigger: 36
+2019/08/13-01:59:01.246532 200c                   Options.target_file_size_base: 67108864
+2019/08/13-01:59:01.246532 200c             Options.target_file_size_multiplier: 1
+2019/08/13-01:59:01.246532 200c                Options.max_bytes_for_level_base: 268435456
+2019/08/13-01:59:01.246532 200c Options.level_compaction_dynamic_level_bytes: 0
+2019/08/13-01:59:01.246532 200c          Options.max_bytes_for_level_multiplier: 10.000000
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/08/13-01:59:01.246532 200c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/08/13-01:59:01.246532 200c       Options.max_sequential_skip_in_iterations: 8
+2019/08/13-01:59:01.246532 200c                    Options.max_compaction_bytes: 1677721600
+2019/08/13-01:59:01.246532 200c                        Options.arena_block_size: 8388608
+2019/08/13-01:59:01.246532 200c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/08/13-01:59:01.246532 200c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/08/13-01:59:01.246532 200c       Options.rate_limit_delay_max_milliseconds: 100
+2019/08/13-01:59:01.246532 200c                Options.disable_auto_compactions: 0
+2019/08/13-01:59:01.246532 200c                        Options.compaction_style: kCompactionStyleLevel
+2019/08/13-01:59:01.246532 200c                          Options.compaction_pri: kByCompensatedSize
+2019/08/13-01:59:01.246532 200c Options.compaction_options_universal.size_ratio: 1
+2019/08/13-01:59:01.246532 200c Options.compaction_options_universal.min_merge_width: 2
+2019/08/13-01:59:01.246532 200c Options.compaction_options_universal.max_merge_width: 4294967295
+2019/08/13-01:59:01.246532 200c Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/08/13-01:59:01.246532 200c Options.compaction_options_universal.compression_size_percent: -1
+2019/08/13-01:59:01.246532 200c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/08/13-01:59:01.246532 200c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/08/13-01:59:01.246532 200c Options.compaction_options_fifo.allow_compaction: 0
+2019/08/13-01:59:01.246532 200c Options.compaction_options_fifo.ttl: 0
+2019/08/13-01:59:01.246532 200c                   Options.table_properties_collectors: 
+2019/08/13-01:59:01.246532 200c                   Options.inplace_update_support: 0
+2019/08/13-01:59:01.246532 200c                 Options.inplace_update_num_locks: 10000
+2019/08/13-01:59:01.246532 200c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/08/13-01:59:01.246532 200c   Options.memtable_huge_page_size: 0
+2019/08/13-01:59:01.246532 200c                           Options.bloom_locality: 0
+2019/08/13-01:59:01.246532 200c                    Options.max_successive_merges: 0
+2019/08/13-01:59:01.246532 200c                Options.optimize_filters_for_hits: 0
+2019/08/13-01:59:01.246532 200c                Options.paranoid_file_checks: 0
+2019/08/13-01:59:01.246532 200c                Options.force_consistency_checks: 0
+2019/08/13-01:59:01.246532 200c                Options.report_bg_io_stats: 0
+2019/08/13-01:59:01.246532 200c                               Options.ttl: 0
+2019/08/13-01:59:01.249532 200c [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:D:\ProjectToolsJava\workspace1\crawler\jd_book\fetch/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/08/13-01:59:01.250533 200c [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 0
+2019/08/13-01:59:01.401541 200c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 00000000240F9D40
+2019/08/13-07:43:01.337078 2188 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #6. Immutable memtables: 0.
+2019/08/13-07:43:01.337078 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 2] Syncing log #3
+2019/08/13-07:43:01.432083 1d48 (Original Log Time 2019/08/13-07:43:01.337078) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-07:43:01.432083 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 2] Flushing memtable with next log file: 6
+2019/08/13-07:43:01.432083 1d48 EVENT_LOG_v1 {"time_micros": 1565653381432083, "job": 2, "event": "flush_started", "num_memtables": 1, "num_entries": 471811, "num_deletes": 0, "memory_usage": 65014072, "flush_reason": "Write Buffer Full"}
+2019/08/13-07:43:01.432083 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 2] Level-0 flush table #7: started
+2019/08/13-07:43:02.505145 1d48 EVENT_LOG_v1 {"time_micros": 1565653382505145, "cf_name": "default", "job": 2, "event": "table_file_creation", "file_number": 7, "file_size": 48574494, "table_properties": {"data_size": 48000656, "index_size": 572913, "filter_size": 0, "raw_key_size": 20586442, "raw_average_key_size": 43, "raw_value_size": 37088526, "raw_average_value_size": 78, "num_data_blocks": 11943, "num_entries": 471811, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-07:43:02.505145 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 2] Level-0 flush table #7: 48574494 bytes OK
+2019/08/13-07:43:02.505145 1d48 [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 8
+2019/08/13-07:43:02.709156 1d48 (Original Log Time 2019/08/13-07:43:02.505145) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #7 started
+2019/08/13-07:43:02.709156 1d48 (Original Log Time 2019/08/13-07:43:02.709156) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #7: memtable #1 done
+2019/08/13-07:43:02.709156 1d48 (Original Log Time 2019/08/13-07:43:02.709156) EVENT_LOG_v1 {"time_micros": 1565653382709156, "job": 2, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [1, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-07:43:02.709156 1d48 (Original Log Time 2019/08/13-07:43:02.709156) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[1 0 0 0 0 0 0] max score 0.25
+2019/08/13-07:43:02.709156 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 2] Try to delete WAL files size 60957617, prev total WAL file size 60962687, number of live WAL files 2.
+2019/08/13-10:03:00.371475 22f8 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #9. Immutable memtables: 0.
+2019/08/13-10:03:00.371475 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 3] Syncing log #6
+2019/08/13-10:03:00.508483 1d48 (Original Log Time 2019/08/13-10:03:00.371475) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-10:03:00.508483 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 3] Flushing memtable with next log file: 9
+2019/08/13-10:03:00.508483 1d48 EVENT_LOG_v1 {"time_micros": 1565661780508483, "job": 3, "event": "flush_started", "num_memtables": 1, "num_entries": 266502, "num_deletes": 0, "memory_usage": 64712688, "flush_reason": "Write Buffer Full"}
+2019/08/13-10:03:00.508483 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 3] Level-0 flush table #10: started
+2019/08/13-10:03:01.533542 1d48 EVENT_LOG_v1 {"time_micros": 1565661781533542, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 10, "file_size": 48996812, "table_properties": {"data_size": 47683913, "index_size": 1311974, "filter_size": 0, "raw_key_size": 22814818, "raw_average_key_size": 85, "raw_value_size": 37700667, "raw_average_value_size": 141, "num_data_blocks": 12260, "num_entries": 266502, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-10:03:01.533542 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 3] Level-0 flush table #10: 48996812 bytes OK
+2019/08/13-10:03:01.614546 1d48 (Original Log Time 2019/08/13-10:03:01.533542) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #10 started
+2019/08/13-10:03:01.614546 1d48 (Original Log Time 2019/08/13-10:03:01.613546) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #10: memtable #1 done
+2019/08/13-10:03:01.614546 1d48 (Original Log Time 2019/08/13-10:03:01.613546) EVENT_LOG_v1 {"time_micros": 1565661781613546, "job": 3, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [2, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-10:03:01.614546 1d48 (Original Log Time 2019/08/13-10:03:01.614546) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[2 0 0 0 0 0 0] max score 0.50
+2019/08/13-10:03:01.614546 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 3] Try to delete WAL files size 62534865, prev total WAL file size 62597897, number of live WAL files 2.
+2019/08/13-10:22:43.852166 2318 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #11. Immutable memtables: 0.
+2019/08/13-10:22:43.852166 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 4] Syncing log #9
+2019/08/13-10:22:43.954172 1d48 (Original Log Time 2019/08/13-10:22:43.852166) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-10:22:43.954172 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 4] Flushing memtable with next log file: 11
+2019/08/13-10:22:43.954172 1d48 EVENT_LOG_v1 {"time_micros": 1565662963954172, "job": 4, "event": "flush_started", "num_memtables": 1, "num_entries": 142962, "num_deletes": 0, "memory_usage": 65014400, "flush_reason": "Write Buffer Full"}
+2019/08/13-10:22:43.954172 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 4] Level-0 flush table #12: started
+2019/08/13-10:22:44.950229 1d48 EVENT_LOG_v1 {"time_micros": 1565662964949229, "cf_name": "default", "job": 4, "event": "table_file_creation", "file_number": 12, "file_size": 49667297, "table_properties": {"data_size": 47891075, "index_size": 1775297, "filter_size": 0, "raw_key_size": 24451865, "raw_average_key_size": 171, "raw_value_size": 38191567, "raw_average_value_size": 267, "num_data_blocks": 12539, "num_entries": 142962, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-10:22:44.950229 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 4] Level-0 flush table #12: 49667297 bytes OK
+2019/08/13-10:22:45.109238 1d48 (Original Log Time 2019/08/13-10:22:44.950229) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #12 started
+2019/08/13-10:22:45.110238 1d48 (Original Log Time 2019/08/13-10:22:45.109238) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #12: memtable #1 done
+2019/08/13-10:22:45.110238 1d48 (Original Log Time 2019/08/13-10:22:45.109238) EVENT_LOG_v1 {"time_micros": 1565662965109238, "job": 4, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [3, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-10:22:45.110238 1d48 (Original Log Time 2019/08/13-10:22:45.109238) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[3 0 0 0 0 0 0] max score 0.75
+2019/08/13-10:22:45.110238 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 4] Try to delete WAL files size 63889754, prev total WAL file size 63954964, number of live WAL files 2.
+2019/08/13-10:42:53.021327 22f8 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #13. Immutable memtables: 0.
+2019/08/13-10:42:53.022327 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 5] Syncing log #11
+2019/08/13-10:42:53.104332 1d48 (Original Log Time 2019/08/13-10:42:53.022327) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-10:42:53.106332 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 5] Flushing memtable with next log file: 13
+2019/08/13-10:42:53.106332 1d48 EVENT_LOG_v1 {"time_micros": 1565664173106332, "job": 5, "event": "flush_started", "num_memtables": 1, "num_entries": 145406, "num_deletes": 0, "memory_usage": 65014136, "flush_reason": "Write Buffer Full"}
+2019/08/13-10:42:53.106332 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 5] Level-0 flush table #14: started
+2019/08/13-10:42:53.979382 1d48 EVENT_LOG_v1 {"time_micros": 1565664173979382, "cf_name": "default", "job": 5, "event": "table_file_creation", "file_number": 14, "file_size": 49447047, "table_properties": {"data_size": 47772529, "index_size": 1673593, "filter_size": 0, "raw_key_size": 24452693, "raw_average_key_size": 168, "raw_value_size": 38023875, "raw_average_value_size": 261, "num_data_blocks": 12133, "num_entries": 145406, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-10:42:53.979382 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 5] Level-0 flush table #14: 49447047 bytes OK
+2019/08/13-10:42:54.031385 1d48 (Original Log Time 2019/08/13-10:42:53.979382) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #14 started
+2019/08/13-10:42:54.031385 1d48 (Original Log Time 2019/08/13-10:42:54.031385) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #14: memtable #1 done
+2019/08/13-10:42:54.031385 1d48 (Original Log Time 2019/08/13-10:42:54.031385) EVENT_LOG_v1 {"time_micros": 1565664174031385, "job": 5, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [4, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-10:42:54.031385 1d48 (Original Log Time 2019/08/13-10:42:54.031385) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[4 0 0 0 0 0 0] max score 1.00
+2019/08/13-10:42:54.031385 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 5] Try to delete WAL files size 63742350, prev total WAL file size 63788862, number of live WAL files 2.
+2019/08/13-10:42:54.031385 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:491] ------- DUMPING STATS -------
+2019/08/13-10:42:54.031385 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:492] 
+** DB Stats **
+Uptime(secs): 31432.8 total, 31432.8 interval
+Cumulative writes: 1026K writes, 1026K keys, 1016K commit groups, 1.0 writes per commit group, ingest: 0.23 GB, 0.01 MB/s
+Cumulative WAL: 1026K writes, 0 syncs, 1026788.00 writes per sync, written: 0.23 GB, 0.01 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 1026K writes, 1026K keys, 1016K commit groups, 1.0 writes per commit group, ingest: 239.54 MB, 0.01 MB/s
+Interval WAL: 1026K writes, 0 syncs, 1026788.00 writes per sync, written: 0.23 MB, 0.01 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   187.57 MB   1.0      0.0     0.0      0.0       0.2      0.2       0.0   1.0      0.0     47.3         4         4    0.992       0      0
+ Sum      4/0   187.57 MB   0.0      0.0     0.0      0.0       0.2      0.2       0.0   1.0      0.0     47.3         4         4    0.992       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.2      0.2       0.0   1.0      0.0     47.3         4         4    0.992       0      0
+Uptime(secs): 31432.8 total, 31432.8 interval
+Flush(GB): cumulative 0.183, interval 0.183
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.18 GB write, 0.01 MB/s write, 0.00 GB read, 0.00 MB/s read, 4.0 seconds
+Interval compaction: 0.18 GB write, 0.01 MB/s write, 0.00 GB read, 0.00 MB/s read, 4.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   187.57 MB   1.0      0.0     0.0      0.0       0.2      0.2       0.0   1.0      0.0     47.3         4         4    0.992       0      0
+ Sum      4/0   187.57 MB   0.0      0.0     0.0      0.0       0.2      0.2       0.0   1.0      0.0     47.3         4         4    0.992       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 31432.8 total, 0.0 interval
+Flush(GB): cumulative 0.183, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.18 GB write, 0.01 MB/s write, 0.00 GB read, 0.00 MB/s read, 4.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2019/08/13-10:42:54.031385 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1531] [default] [JOB 6] Compacting 4@0 files to L1, score 1.00
+2019/08/13-10:42:54.031385 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1535] [default] Compaction start summary: Base version 5 Base level 0, inputs: [14(47MB) 12(47MB) 10(46MB) 7(46MB)]
+2019/08/13-10:42:54.031385 1bd8 EVENT_LOG_v1 {"time_micros": 1565664174031385, "job": 6, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [14, 12, 10, 7], "score": 1, "input_data_size": 196685650}
+2019/08/13-10:42:57.977610 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 6] Generated table #15: 653090 keys, 67935658 bytes
+2019/08/13-10:42:57.977610 1bd8 EVENT_LOG_v1 {"time_micros": 1565664177977610, "cf_name": "default", "job": 6, "event": "table_file_creation", "file_number": 15, "file_size": 67935658, "table_properties": {"data_size": 67112487, "index_size": 822249, "filter_size": 0, "raw_key_size": 28809988, "raw_average_key_size": 44, "raw_value_size": 52003221, "raw_average_value_size": 79, "num_data_blocks": 16705, "num_entries": 653090, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-10:42:59.727711 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 6] Generated table #16: 200216 keys, 69603757 bytes
+2019/08/13-10:42:59.728711 1bd8 EVENT_LOG_v1 {"time_micros": 1565664179728711, "cf_name": "default", "job": 6, "event": "table_file_creation", "file_number": 16, "file_size": 69603757, "table_properties": {"data_size": 67109414, "index_size": 2493420, "filter_size": 0, "raw_key_size": 34262252, "raw_average_key_size": 171, "raw_value_size": 53518477, "raw_average_value_size": 267, "num_data_blocks": 17598, "num_entries": 200216, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-10:43:00.756769 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 6] Generated table #17: 173375 keys, 59146972 bytes
+2019/08/13-10:43:00.756769 1bd8 EVENT_LOG_v1 {"time_micros": 1565664180756769, "cf_name": "default", "job": 6, "event": "table_file_creation", "file_number": 17, "file_size": 59146972, "table_properties": {"data_size": 57126889, "index_size": 2019162, "filter_size": 0, "raw_key_size": 29233578, "raw_average_key_size": 168, "raw_value_size": 45482937, "raw_average_value_size": 262, "num_data_blocks": 14573, "num_entries": 173375, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-10:43:00.757769 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1287] [default] [JOB 6] Compacted 4@0 files to L1 => 196686387 bytes
+2019/08/13-10:43:00.848775 1bd8 (Original Log Time 2019/08/13-10:43:00.848775) [c:\users\aretter\code\rocksdb\db\compaction_job.cc:685] [default] compacted to: base level 1 max bytes base 268435456 files[0 3 0 0 0 0 0] max score 0.73, MB/sec: 29.2 rd, 29.2 wr, level 1, files in(4, 0) out(3) MB in(187.6, 0.0) out(187.6), read-write-amplify(2.0) write-amplify(1.0) OK, records in: 1026681, records dropped: 0 output_compression: NoCompression
+2019/08/13-10:43:00.848775 1bd8 (Original Log Time 2019/08/13-10:43:00.848775) EVENT_LOG_v1 {"time_micros": 1565664180848775, "job": 6, "event": "compaction_finished", "compaction_time_micros": 6726384, "output_level": 1, "num_output_files": 3, "total_output_size": 196686387, "num_input_records": 1026681, "num_output_records": 1026681, "num_subcompactions": 1, "output_compression": "NoCompression", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 3, 0, 0, 0, 0, 0]}
+2019/08/13-10:43:00.864776 1bd8 EVENT_LOG_v1 {"time_micros": 1565664180864776, "job": 6, "event": "table_file_deletion", "file_number": 14}
+2019/08/13-10:43:00.880777 1bd8 EVENT_LOG_v1 {"time_micros": 1565664180880777, "job": 6, "event": "table_file_deletion", "file_number": 12}
+2019/08/13-10:43:00.894777 1bd8 EVENT_LOG_v1 {"time_micros": 1565664180894777, "job": 6, "event": "table_file_deletion", "file_number": 10}
+2019/08/13-10:43:00.913778 1bd8 EVENT_LOG_v1 {"time_micros": 1565664180913778, "job": 6, "event": "table_file_deletion", "file_number": 7}
+2019/08/13-11:02:38.695144 804 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #18. Immutable memtables: 0.
+2019/08/13-11:02:38.696144 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 7] Syncing log #13
+2019/08/13-11:02:38.778148 1d48 (Original Log Time 2019/08/13-11:02:38.696144) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-11:02:38.778148 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 7] Flushing memtable with next log file: 18
+2019/08/13-11:02:38.778148 1d48 EVENT_LOG_v1 {"time_micros": 1565665358778148, "job": 7, "event": "flush_started", "num_memtables": 1, "num_entries": 144404, "num_deletes": 0, "memory_usage": 64692120, "flush_reason": "Write Buffer Full"}
+2019/08/13-11:02:38.778148 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 7] Level-0 flush table #19: started
+2019/08/13-11:02:39.792206 1d48 EVENT_LOG_v1 {"time_micros": 1565665359792206, "cf_name": "default", "job": 7, "event": "table_file_creation", "file_number": 19, "file_size": 49194792, "table_properties": {"data_size": 47519204, "index_size": 1674663, "filter_size": 0, "raw_key_size": 24313057, "raw_average_key_size": 168, "raw_value_size": 37827051, "raw_average_value_size": 261, "num_data_blocks": 12121, "num_entries": 144404, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-11:02:39.792206 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 7] Level-0 flush table #19: 49194792 bytes OK
+2019/08/13-11:02:39.862210 1d48 (Original Log Time 2019/08/13-11:02:39.792206) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #19 started
+2019/08/13-11:02:39.862210 1d48 (Original Log Time 2019/08/13-11:02:39.862210) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #19: memtable #1 done
+2019/08/13-11:02:39.862210 1d48 (Original Log Time 2019/08/13-11:02:39.862210) EVENT_LOG_v1 {"time_micros": 1565665359862210, "job": 7, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [1, 3, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-11:02:39.862210 1d48 (Original Log Time 2019/08/13-11:02:39.862210) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[1 3 0 0 0 0 0] max score 0.73
+2019/08/13-11:02:39.862210 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 7] Try to delete WAL files size 63400726, prev total WAL file size 63457024, number of live WAL files 2.
+2019/08/13-11:22:37.079687 2094 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #20. Immutable memtables: 0.
+2019/08/13-11:22:37.079687 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 8] Syncing log #18
+2019/08/13-11:22:37.406706 1d48 (Original Log Time 2019/08/13-11:22:37.079687) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-11:22:37.406706 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 8] Flushing memtable with next log file: 20
+2019/08/13-11:22:37.406706 1d48 EVENT_LOG_v1 {"time_micros": 1565666557406706, "job": 8, "event": "flush_started", "num_memtables": 1, "num_entries": 145266, "num_deletes": 0, "memory_usage": 65014200, "flush_reason": "Write Buffer Full"}
+2019/08/13-11:22:37.406706 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 8] Level-0 flush table #21: started
+2019/08/13-11:22:38.466767 1d48 EVENT_LOG_v1 {"time_micros": 1565666558466767, "cf_name": "default", "job": 8, "event": "table_file_creation", "file_number": 21, "file_size": 49437664, "table_properties": {"data_size": 47760036, "index_size": 1676703, "filter_size": 0, "raw_key_size": 24439544, "raw_average_key_size": 168, "raw_value_size": 38016718, "raw_average_value_size": 261, "num_data_blocks": 12156, "num_entries": 145266, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-11:22:38.466767 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 8] Level-0 flush table #21: 49437664 bytes OK
+2019/08/13-11:22:38.563772 1d48 (Original Log Time 2019/08/13-11:22:38.466767) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #21 started
+2019/08/13-11:22:38.563772 1d48 (Original Log Time 2019/08/13-11:22:38.563772) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #21: memtable #1 done
+2019/08/13-11:22:38.563772 1d48 (Original Log Time 2019/08/13-11:22:38.563772) EVENT_LOG_v1 {"time_micros": 1565666558563772, "job": 8, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [2, 3, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-11:22:38.563772 1d48 (Original Log Time 2019/08/13-11:22:38.563772) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[2 3 0 0 0 0 0] max score 0.73
+2019/08/13-11:22:38.563772 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 8] Try to delete WAL files size 63722464, prev total WAL file size 63800980, number of live WAL files 2.
+2019/08/13-11:42:29.363882 2114 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #22. Immutable memtables: 0.
+2019/08/13-11:42:29.363882 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 9] Syncing log #20
+2019/08/13-11:42:29.472888 1d48 (Original Log Time 2019/08/13-11:42:29.363882) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-11:42:29.472888 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 9] Flushing memtable with next log file: 22
+2019/08/13-11:42:29.472888 1d48 EVENT_LOG_v1 {"time_micros": 1565667749472888, "job": 9, "event": "flush_started", "num_memtables": 1, "num_entries": 145388, "num_deletes": 0, "memory_usage": 65014160, "flush_reason": "Write Buffer Full"}
+2019/08/13-11:42:29.472888 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 9] Level-0 flush table #23: started
+2019/08/13-11:42:30.594952 1d48 EVENT_LOG_v1 {"time_micros": 1565667750594952, "cf_name": "default", "job": 9, "event": "table_file_creation", "file_number": 23, "file_size": 49442432, "table_properties": {"data_size": 47768314, "index_size": 1673193, "filter_size": 0, "raw_key_size": 24445242, "raw_average_key_size": 168, "raw_value_size": 38022776, "raw_average_value_size": 261, "num_data_blocks": 12132, "num_entries": 145388, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-11:42:30.594952 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 9] Level-0 flush table #23: 49442432 bytes OK
+2019/08/13-11:42:30.681957 1d48 (Original Log Time 2019/08/13-11:42:30.594952) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #23 started
+2019/08/13-11:42:30.681957 1d48 (Original Log Time 2019/08/13-11:42:30.681957) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #23: memtable #1 done
+2019/08/13-11:42:30.681957 1d48 (Original Log Time 2019/08/13-11:42:30.681957) EVENT_LOG_v1 {"time_micros": 1565667750681957, "job": 9, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [3, 3, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-11:42:30.681957 1d48 (Original Log Time 2019/08/13-11:42:30.681957) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[3 3 0 0 0 0 0] max score 0.75
+2019/08/13-11:42:30.681957 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 9] Try to delete WAL files size 63735954, prev total WAL file size 63807826, number of live WAL files 2.
+2019/08/13-12:02:50.535729 2094 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #24. Immutable memtables: 0.
+2019/08/13-12:02:50.535729 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 10] Syncing log #22
+2019/08/13-12:02:50.638735 1d48 (Original Log Time 2019/08/13-12:02:50.535729) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-12:02:50.638735 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 10] Flushing memtable with next log file: 24
+2019/08/13-12:02:50.638735 1d48 EVENT_LOG_v1 {"time_micros": 1565668970638735, "job": 10, "event": "flush_started", "num_memtables": 1, "num_entries": 145406, "num_deletes": 0, "memory_usage": 65014176, "flush_reason": "Write Buffer Full"}
+2019/08/13-12:02:50.638735 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 10] Level-0 flush table #25: started
+2019/08/13-12:02:51.760799 1d48 EVENT_LOG_v1 {"time_micros": 1565668971760799, "cf_name": "default", "job": 10, "event": "table_file_creation", "file_number": 25, "file_size": 49453171, "table_properties": {"data_size": 47777701, "index_size": 1674545, "filter_size": 0, "raw_key_size": 24463375, "raw_average_key_size": 168, "raw_value_size": 38029587, "raw_average_value_size": 261, "num_data_blocks": 12132, "num_entries": 145406, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:02:51.760799 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 10] Level-0 flush table #25: 49453171 bytes OK
+2019/08/13-12:02:51.818802 1d48 (Original Log Time 2019/08/13-12:02:51.760799) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #25 started
+2019/08/13-12:02:51.818802 1d48 (Original Log Time 2019/08/13-12:02:51.818802) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #25: memtable #1 done
+2019/08/13-12:02:51.818802 1d48 (Original Log Time 2019/08/13-12:02:51.818802) EVENT_LOG_v1 {"time_micros": 1565668971818802, "job": 10, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [4, 3, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-12:02:51.818802 1d48 (Original Log Time 2019/08/13-12:02:51.818802) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[4 3 0 0 0 0 0] max score 1.00
+2019/08/13-12:02:51.818802 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 10] Try to delete WAL files size 63765274, prev total WAL file size 63831078, number of live WAL files 2.
+2019/08/13-12:02:51.825803 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:491] ------- DUMPING STATS -------
+2019/08/13-12:02:51.825803 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:492] 
+** DB Stats **
+Uptime(secs): 36230.6 total, 4797.8 interval
+Cumulative writes: 1607K writes, 1607K keys, 1583K commit groups, 1.0 writes per commit group, ingest: 0.47 GB, 0.01 MB/s
+Cumulative WAL: 1607K writes, 0 syncs, 1607295.00 writes per sync, written: 0.47 GB, 0.01 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 580K writes, 580K keys, 567K commit groups, 1.0 writes per commit group, ingest: 242.85 MB, 0.05 MB/s
+Interval WAL: 580K writes, 0 syncs, 580507.00 writes per sync, written: 0.24 MB, 0.05 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   188.38 MB   1.0      0.0     0.0      0.0       0.4      0.4       0.0   1.0      0.0     45.4         8         8    1.036       0      0
+  L1      3/0   187.57 MB   0.7      0.2     0.2      0.0       0.2      0.2       0.0   1.0     27.9     27.9         7         1    6.726   1026K      0
+ Sum      7/0   375.95 MB   0.0      0.2     0.2      0.0       0.6      0.6       0.0   1.5     12.5     37.5        15         9    1.668   1026K      0
+ Int      0/0    0.00 KB   0.0      0.2     0.2      0.0       0.4      0.4       0.0   2.0     17.0     34.0        11         5    2.209   1026K      0
+Uptime(secs): 36230.6 total, 4797.8 interval
+Flush(GB): cumulative 0.367, interval 0.184
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.55 GB write, 0.02 MB/s write, 0.18 GB read, 0.01 MB/s read, 15.0 seconds
+Interval compaction: 0.37 GB write, 0.08 MB/s write, 0.18 GB read, 0.04 MB/s read, 11.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   188.38 MB   1.0      0.0     0.0      0.0       0.4      0.4       0.0   1.0      0.0     45.4         8         8    1.036       0      0
+  L1      3/0   187.57 MB   0.7      0.2     0.2      0.0       0.2      0.2       0.0   1.0     27.9     27.9         7         1    6.726   1026K      0
+ Sum      7/0   375.95 MB   0.0      0.2     0.2      0.0       0.6      0.6       0.0   1.5     12.5     37.5        15         9    1.668   1026K      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 36230.6 total, 0.0 interval
+Flush(GB): cumulative 0.367, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.55 GB write, 0.02 MB/s write, 0.18 GB read, 0.01 MB/s read, 15.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2019/08/13-12:02:51.853804 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1531] [default] [JOB 11] Compacting 4@0 + 1@1 files to L1, score 1.00
+2019/08/13-12:02:51.853804 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1535] [default] Compaction start summary: Base version 10 Base level 0, inputs: [25(47MB) 23(47MB) 21(47MB) 19(46MB)], [17(56MB)]
+2019/08/13-12:02:51.853804 1bd8 EVENT_LOG_v1 {"time_micros": 1565668971853804, "job": 11, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [25, 23, 21, 19], "files_L1": [17], "score": 1, "input_data_size": 256675031}
+2019/08/13-12:02:55.065988 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 11] Generated table #26: 203748 keys, 69484685 bytes
+2019/08/13-12:02:55.065988 1bd8 EVENT_LOG_v1 {"time_micros": 1565668975065988, "cf_name": "default", "job": 11, "event": "table_file_creation", "file_number": 26, "file_size": 69484685, "table_properties": {"data_size": 67112791, "index_size": 2370971, "filter_size": 0, "raw_key_size": 34342239, "raw_average_key_size": 168, "raw_value_size": 53430649, "raw_average_value_size": 262, "num_data_blocks": 17122, "num_entries": 203748, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:02:58.998213 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 11] Generated table #27: 203950 keys, 69477339 bytes
+2019/08/13-12:02:58.999213 1bd8 EVENT_LOG_v1 {"time_micros": 1565668978999213, "cf_name": "default", "job": 11, "event": "table_file_creation", "file_number": 27, "file_size": 69477339, "table_properties": {"data_size": 67112279, "index_size": 2364137, "filter_size": 0, "raw_key_size": 34340544, "raw_average_key_size": 168, "raw_value_size": 53424422, "raw_average_value_size": 261, "num_data_blocks": 17110, "num_entries": 203950, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:03:01.276343 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 11] Generated table #28: 204263 keys, 69461850 bytes
+2019/08/13-12:03:01.276343 1bd8 EVENT_LOG_v1 {"time_micros": 1565668981276343, "cf_name": "default", "job": 11, "event": "table_file_creation", "file_number": 28, "file_size": 69461850, "table_properties": {"data_size": 67110514, "index_size": 2350413, "filter_size": 0, "raw_key_size": 34343218, "raw_average_key_size": 168, "raw_value_size": 53418559, "raw_average_value_size": 261, "num_data_blocks": 17047, "num_entries": 204263, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:03:02.544416 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 11] Generated table #29: 141878 keys, 48251500 bytes
+2019/08/13-12:03:02.544416 1bd8 EVENT_LOG_v1 {"time_micros": 1565668982544416, "cf_name": "default", "job": 11, "event": "table_file_creation", "file_number": 29, "file_size": 48251500, "table_properties": {"data_size": 46616853, "index_size": 1633726, "filter_size": 0, "raw_key_size": 23868795, "raw_average_key_size": 168, "raw_value_size": 37105439, "raw_average_value_size": 261, "num_data_blocks": 11837, "num_entries": 141878, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:03:02.544416 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1287] [default] [JOB 11] Compacted 4@0 + 1@1 files to L1 => 256675374 bytes
+2019/08/13-12:03:02.644422 1bd8 (Original Log Time 2019/08/13-12:03:02.644422) [c:\users\aretter\code\rocksdb\db\compaction_job.cc:685] [default] compacted to: base level 1 max bytes base 268435456 files[0 6 0 0 0 0 0] max score 1.47, MB/sec: 24.0 rd, 24.0 wr, level 1, files in(4, 1) out(4) MB in(188.4, 56.4) out(244.8), read-write-amplify(2.6) write-amplify(1.3) OK, records in: 753839, records dropped: 0 output_compression: NoCompression
+2019/08/13-12:03:02.644422 1bd8 (Original Log Time 2019/08/13-12:03:02.644422) EVENT_LOG_v1 {"time_micros": 1565668982644422, "job": 11, "event": "compaction_finished", "compaction_time_micros": 10690612, "output_level": 1, "num_output_files": 4, "total_output_size": 256675374, "num_input_records": 753839, "num_output_records": 753839, "num_subcompactions": 1, "output_compression": "NoCompression", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 6, 0, 0, 0, 0, 0]}
+2019/08/13-12:03:02.664423 1bd8 EVENT_LOG_v1 {"time_micros": 1565668982664423, "job": 11, "event": "table_file_deletion", "file_number": 25}
+2019/08/13-12:03:02.689424 1bd8 EVENT_LOG_v1 {"time_micros": 1565668982689424, "job": 11, "event": "table_file_deletion", "file_number": 23}
+2019/08/13-12:03:02.716426 1bd8 EVENT_LOG_v1 {"time_micros": 1565668982716426, "job": 11, "event": "table_file_deletion", "file_number": 21}
+2019/08/13-12:03:02.737427 1bd8 EVENT_LOG_v1 {"time_micros": 1565668982737427, "job": 11, "event": "table_file_deletion", "file_number": 19}
+2019/08/13-12:03:02.764429 1bd8 EVENT_LOG_v1 {"time_micros": 1565668982764429, "job": 11, "event": "table_file_deletion", "file_number": 17}
+2019/08/13-12:03:02.888436 1bd8 (Original Log Time 2019/08/13-12:03:02.764429) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #16 to level-2 69603757 bytes
+2019/08/13-12:03:02.888436 1bd8 (Original Log Time 2019/08/13-12:03:02.888436) EVENT_LOG_v1 {"time_micros": 1565668982888436, "job": 12, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69603757}
+2019/08/13-12:03:02.888436 1bd8 (Original Log Time 2019/08/13-12:03:02.888436) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69603757 bytes OK: base level 1 max bytes base 268435456 files[0 5 1 0 0 0 0] max score 1.21
+2019/08/13-12:03:02.958440 1bd8 (Original Log Time 2019/08/13-12:03:02.888436) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #26 to level-2 69484685 bytes
+2019/08/13-12:03:02.958440 1bd8 (Original Log Time 2019/08/13-12:03:02.958440) EVENT_LOG_v1 {"time_micros": 1565668982958440, "job": 13, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69484685}
+2019/08/13-12:03:02.958440 1bd8 (Original Log Time 2019/08/13-12:03:02.958440) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69484685 bytes OK: base level 1 max bytes base 268435456 files[0 4 2 0 0 0 0] max score 0.95
+2019/08/13-12:22:56.194689 1788 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #30. Immutable memtables: 0.
+2019/08/13-12:22:56.194689 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 14] Syncing log #24
+2019/08/13-12:22:56.312696 1d48 (Original Log Time 2019/08/13-12:22:56.194689) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-12:22:56.312696 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 14] Flushing memtable with next log file: 30
+2019/08/13-12:22:56.312696 1d48 EVENT_LOG_v1 {"time_micros": 1565670176312696, "job": 14, "event": "flush_started", "num_memtables": 1, "num_entries": 144954, "num_deletes": 0, "memory_usage": 64805768, "flush_reason": "Write Buffer Full"}
+2019/08/13-12:22:56.312696 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 14] Level-0 flush table #31: started
+2019/08/13-12:22:57.712776 1d48 EVENT_LOG_v1 {"time_micros": 1565670177712776, "cf_name": "default", "job": 14, "event": "table_file_creation", "file_number": 31, "file_size": 49279975, "table_properties": {"data_size": 47611768, "index_size": 1667282, "filter_size": 0, "raw_key_size": 24366240, "raw_average_key_size": 168, "raw_value_size": 37894570, "raw_average_value_size": 261, "num_data_blocks": 12095, "num_entries": 144954, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:22:57.712776 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 14] Level-0 flush table #31: 49279975 bytes OK
+2019/08/13-12:22:57.793780 1d48 (Original Log Time 2019/08/13-12:22:57.712776) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #31 started
+2019/08/13-12:22:57.793780 1d48 (Original Log Time 2019/08/13-12:22:57.793780) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #31: memtable #1 done
+2019/08/13-12:22:57.793780 1d48 (Original Log Time 2019/08/13-12:22:57.793780) EVENT_LOG_v1 {"time_micros": 1565670177793780, "job": 14, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [1, 4, 2, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-12:22:57.793780 1d48 (Original Log Time 2019/08/13-12:22:57.793780) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[1 4 2 0 0 0 0] max score 0.95
+2019/08/13-12:22:57.793780 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 14] Try to delete WAL files size 63531228, prev total WAL file size 63613376, number of live WAL files 2.
+2019/08/13-12:42:55.846305 2250 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #32. Immutable memtables: 0.
+2019/08/13-12:42:55.847305 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 15] Syncing log #30
+2019/08/13-12:42:55.975312 1d48 (Original Log Time 2019/08/13-12:42:55.847305) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-12:42:55.975312 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 15] Flushing memtable with next log file: 32
+2019/08/13-12:42:55.981313 1d48 EVENT_LOG_v1 {"time_micros": 1565671375975312, "job": 15, "event": "flush_started", "num_memtables": 1, "num_entries": 145137, "num_deletes": 0, "memory_usage": 65014128, "flush_reason": "Write Buffer Full"}
+2019/08/13-12:42:55.981313 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 15] Level-0 flush table #33: started
+2019/08/13-12:42:57.339390 1d48 EVENT_LOG_v1 {"time_micros": 1565671377339390, "cf_name": "default", "job": 15, "event": "table_file_creation", "file_number": 33, "file_size": 49439679, "table_properties": {"data_size": 47756788, "index_size": 1681966, "filter_size": 0, "raw_key_size": 24437216, "raw_average_key_size": 168, "raw_value_size": 38015409, "raw_average_value_size": 261, "num_data_blocks": 12178, "num_entries": 145137, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-12:42:57.339390 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 15] Level-0 flush table #33: 49439679 bytes OK
+2019/08/13-12:42:57.539402 1d48 (Original Log Time 2019/08/13-12:42:57.339390) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #33 started
+2019/08/13-12:42:57.539402 1d48 (Original Log Time 2019/08/13-12:42:57.539402) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #33: memtable #1 done
+2019/08/13-12:42:57.539402 1d48 (Original Log Time 2019/08/13-12:42:57.539402) EVENT_LOG_v1 {"time_micros": 1565671377539402, "job": 15, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [2, 4, 2, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-12:42:57.539402 1d48 (Original Log Time 2019/08/13-12:42:57.539402) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[2 4 2 0 0 0 0] max score 0.95
+2019/08/13-12:42:57.539402 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 15] Try to delete WAL files size 63722846, prev total WAL file size 63806234, number of live WAL files 2.
+2019/08/13-13:03:04.461434 1888 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #34. Immutable memtables: 0.
+2019/08/13-13:03:04.461434 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 16] Syncing log #32
+2019/08/13-13:03:04.547439 1d48 (Original Log Time 2019/08/13-13:03:04.461434) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-13:03:04.547439 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 16] Flushing memtable with next log file: 34
+2019/08/13-13:03:04.547439 1d48 EVENT_LOG_v1 {"time_micros": 1565672584547439, "job": 16, "event": "flush_started", "num_memtables": 1, "num_entries": 145365, "num_deletes": 0, "memory_usage": 65014136, "flush_reason": "Write Buffer Full"}
+2019/08/13-13:03:04.548439 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 16] Level-0 flush table #35: started
+2019/08/13-13:03:05.752508 1d48 EVENT_LOG_v1 {"time_micros": 1565672585752508, "cf_name": "default", "job": 16, "event": "table_file_creation", "file_number": 35, "file_size": 49439334, "table_properties": {"data_size": 47763480, "index_size": 1674929, "filter_size": 0, "raw_key_size": 24441365, "raw_average_key_size": 168, "raw_value_size": 38014136, "raw_average_value_size": 261, "num_data_blocks": 12146, "num_entries": 145365, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:03:05.752508 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 16] Level-0 flush table #35: 49439334 bytes OK
+2019/08/13-13:03:05.855514 1d48 (Original Log Time 2019/08/13-13:03:05.752508) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #35 started
+2019/08/13-13:03:05.855514 1d48 (Original Log Time 2019/08/13-13:03:05.855514) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #35: memtable #1 done
+2019/08/13-13:03:05.855514 1d48 (Original Log Time 2019/08/13-13:03:05.855514) EVENT_LOG_v1 {"time_micros": 1565672585855514, "job": 16, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [3, 4, 2, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-13:03:05.855514 1d48 (Original Log Time 2019/08/13-13:03:05.855514) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[3 4 2 0 0 0 0] max score 0.95
+2019/08/13-13:03:05.855514 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 16] Try to delete WAL files size 63726700, prev total WAL file size 63793734, number of live WAL files 2.
+2019/08/13-13:23:19.141910 18a4 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #36. Immutable memtables: 0.
+2019/08/13-13:23:19.141910 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 17] Syncing log #34
+2019/08/13-13:23:19.302919 1d48 (Original Log Time 2019/08/13-13:23:19.141910) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-13:23:19.302919 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 17] Flushing memtable with next log file: 36
+2019/08/13-13:23:19.302919 1d48 EVENT_LOG_v1 {"time_micros": 1565673799302919, "job": 17, "event": "flush_started", "num_memtables": 1, "num_entries": 145414, "num_deletes": 0, "memory_usage": 65014176, "flush_reason": "Write Buffer Full"}
+2019/08/13-13:23:19.302919 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 17] Level-0 flush table #37: started
+2019/08/13-13:23:20.279975 1d48 EVENT_LOG_v1 {"time_micros": 1565673800279975, "cf_name": "default", "job": 17, "event": "table_file_creation", "file_number": 37, "file_size": 49443458, "table_properties": {"data_size": 47769998, "index_size": 1672535, "filter_size": 0, "raw_key_size": 24452832, "raw_average_key_size": 168, "raw_value_size": 38022282, "raw_average_value_size": 261, "num_data_blocks": 12133, "num_entries": 145414, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:23:20.279975 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 17] Level-0 flush table #37: 49443458 bytes OK
+2019/08/13-13:23:20.368980 1d48 (Original Log Time 2019/08/13-13:23:20.279975) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #37 started
+2019/08/13-13:23:20.368980 1d48 (Original Log Time 2019/08/13-13:23:20.368980) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #37: memtable #1 done
+2019/08/13-13:23:20.368980 1d48 (Original Log Time 2019/08/13-13:23:20.368980) EVENT_LOG_v1 {"time_micros": 1565673800368980, "job": 17, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [4, 4, 2, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-13:23:20.368980 1d48 (Original Log Time 2019/08/13-13:23:20.368980) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[4 4 2 0 0 0 0] max score 1.00
+2019/08/13-13:23:20.368980 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 17] Try to delete WAL files size 63743478, prev total WAL file size 63803574, number of live WAL files 2.
+2019/08/13-13:23:20.369980 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:491] ------- DUMPING STATS -------
+2019/08/13-13:23:20.369980 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:492] 
+** DB Stats **
+Uptime(secs): 41059.1 total, 4828.5 interval
+Cumulative writes: 2188K writes, 2188K keys, 2152K commit groups, 1.0 writes per commit group, ingest: 0.71 GB, 0.02 MB/s
+Cumulative WAL: 2188K writes, 0 syncs, 2188152.00 writes per sync, written: 0.71 GB, 0.02 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 580K writes, 580K keys, 568K commit groups, 1.0 writes per commit group, ingest: 242.92 MB, 0.05 MB/s
+Interval WAL: 580K writes, 0 syncs, 580857.00 writes per sync, written: 0.24 MB, 0.05 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   188.45 MB   1.0      0.0     0.0      0.0       0.6      0.6       0.0   1.0      0.0     42.6        13        12    1.103       0      0
+  L1      4/0   243.31 MB   1.0      0.4     0.4      0.1       0.4      0.4       0.0   1.2     24.8     24.8        17         2    8.708   1780K      0
+  L2      2/0   132.65 MB   0.1      0.0     0.0      0.0       0.0      0.0       0.1   0.0      0.0      0.0         0         0    0.000       0      0
+ Sum     10/0   564.40 MB   0.0      0.4     0.4      0.1       1.0      0.9       0.1   1.8     14.1     32.5        31        14    2.189   1780K      0
+ Int      0/0    0.00 KB   0.0      0.2     0.2      0.1       0.4      0.4       0.1   2.3     15.7     27.7        16         5    3.127    753K      0
+Uptime(secs): 41059.1 total, 4828.5 interval
+Flush(GB): cumulative 0.551, interval 0.184
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.97 GB write, 0.02 MB/s write, 0.42 GB read, 0.01 MB/s read, 30.7 seconds
+Interval compaction: 0.42 GB write, 0.09 MB/s write, 0.24 GB read, 0.05 MB/s read, 15.6 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   188.45 MB   1.0      0.0     0.0      0.0       0.6      0.6       0.0   1.0      0.0     42.6        13        12    1.103       0      0
+  L1      4/0   243.31 MB   1.0      0.4     0.4      0.1       0.4      0.4       0.0   1.2     24.8     24.8        17         2    8.708   1780K      0
+  L2      2/0   132.65 MB   0.1      0.0     0.0      0.0       0.0      0.0       0.1   0.0      0.0      0.0         0         0    0.000       0      0
+ Sum     10/0   564.40 MB   0.0      0.4     0.4      0.1       1.0      0.9       0.1   1.8     14.1     32.5        31        14    2.189   1780K      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 41059.1 total, 0.0 interval
+Flush(GB): cumulative 0.551, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.97 GB write, 0.02 MB/s write, 0.42 GB read, 0.01 MB/s read, 30.7 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2019/08/13-13:23:20.369980 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1531] [default] [JOB 18] Compacting 4@0 + 1@1 files to L1, score 1.00
+2019/08/13-13:23:20.369980 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1535] [default] Compaction start summary: Base version 17 Base level 0, inputs: [37(47MB) 35(47MB) 33(47MB) 31(46MB)], [29(46MB)]
+2019/08/13-13:23:20.369980 1bd8 EVENT_LOG_v1 {"time_micros": 1565673800369980, "job": 18, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [37, 35, 33, 31], "files_L1": [29], "score": 1, "input_data_size": 245853946}
+2019/08/13-13:23:23.709171 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 18] Generated table #38: 204274 keys, 69464000 bytes
+2019/08/13-13:23:23.709171 1bd8 EVENT_LOG_v1 {"time_micros": 1565673803709171, "cf_name": "default", "job": 18, "event": "table_file_creation", "file_number": 38, "file_size": 69464000, "table_properties": {"data_size": 67111456, "index_size": 2351621, "filter_size": 0, "raw_key_size": 34358811, "raw_average_key_size": 168, "raw_value_size": 53417599, "raw_average_value_size": 261, "num_data_blocks": 17042, "num_entries": 204274, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:23:27.584392 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 18] Generated table #39: 204064 keys, 69470121 bytes
+2019/08/13-13:23:27.585393 1bd8 EVENT_LOG_v1 {"time_micros": 1565673807584392, "cf_name": "default", "job": 18, "event": "table_file_creation", "file_number": 39, "file_size": 69470121, "table_properties": {"data_size": 67109441, "index_size": 2359757, "filter_size": 0, "raw_key_size": 34340105, "raw_average_key_size": 168, "raw_value_size": 53417961, "raw_average_value_size": 261, "num_data_blocks": 17096, "num_entries": 204064, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:23:33.881753 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 18] Generated table #40: 204273 keys, 69466845 bytes
+2019/08/13-13:23:33.881753 1bd8 EVENT_LOG_v1 {"time_micros": 1565673813881753, "cf_name": "default", "job": 18, "event": "table_file_creation", "file_number": 40, "file_size": 69466845, "table_properties": {"data_size": 67112757, "index_size": 2353165, "filter_size": 0, "raw_key_size": 34345103, "raw_average_key_size": 168, "raw_value_size": 53413896, "raw_average_value_size": 261, "num_data_blocks": 17063, "num_entries": 204273, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:23:34.848808 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 18] Generated table #41: 110137 keys, 37453318 bytes
+2019/08/13-13:23:34.848808 1bd8 EVENT_LOG_v1 {"time_micros": 1565673814848808, "cf_name": "default", "job": 18, "event": "table_file_creation", "file_number": 41, "file_size": 37453318, "table_properties": {"data_size": 36185486, "index_size": 1266911, "filter_size": 0, "raw_key_size": 18522429, "raw_average_key_size": 168, "raw_value_size": 28802380, "raw_average_value_size": 261, "num_data_blocks": 9190, "num_entries": 110137, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:23:34.848808 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1287] [default] [JOB 18] Compacted 4@0 + 1@1 files to L1 => 245854284 bytes
+2019/08/13-13:23:34.926812 1bd8 (Original Log Time 2019/08/13-13:23:34.926812) [c:\users\aretter\code\rocksdb\db\compaction_job.cc:685] [default] compacted to: base level 1 max bytes base 268435456 files[0 7 2 0 0 0 0] max score 1.69, MB/sec: 17.0 rd, 17.0 wr, level 1, files in(4, 1) out(4) MB in(188.4, 46.0) out(234.5), read-write-amplify(2.5) write-amplify(1.2) OK, records in: 722748, records dropped: 0 output_compression: NoCompression
+2019/08/13-13:23:34.926812 1bd8 (Original Log Time 2019/08/13-13:23:34.926812) EVENT_LOG_v1 {"time_micros": 1565673814926812, "job": 18, "event": "compaction_finished", "compaction_time_micros": 14478828, "output_level": 1, "num_output_files": 4, "total_output_size": 245854284, "num_input_records": 722748, "num_output_records": 722748, "num_subcompactions": 1, "output_compression": "NoCompression", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 7, 2, 0, 0, 0, 0]}
+2019/08/13-13:23:34.941813 1bd8 EVENT_LOG_v1 {"time_micros": 1565673814941813, "job": 18, "event": "table_file_deletion", "file_number": 37}
+2019/08/13-13:23:34.953814 1bd8 EVENT_LOG_v1 {"time_micros": 1565673814953814, "job": 18, "event": "table_file_deletion", "file_number": 35}
+2019/08/13-13:23:34.968815 1bd8 EVENT_LOG_v1 {"time_micros": 1565673814968815, "job": 18, "event": "table_file_deletion", "file_number": 33}
+2019/08/13-13:23:34.984816 1bd8 EVENT_LOG_v1 {"time_micros": 1565673814984816, "job": 18, "event": "table_file_deletion", "file_number": 31}
+2019/08/13-13:23:34.999817 1bd8 EVENT_LOG_v1 {"time_micros": 1565673814999817, "job": 18, "event": "table_file_deletion", "file_number": 29}
+2019/08/13-13:23:35.114823 1bd8 (Original Log Time 2019/08/13-13:23:34.999817) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #27 to level-2 69477339 bytes
+2019/08/13-13:23:35.117823 1bd8 (Original Log Time 2019/08/13-13:23:35.114823) EVENT_LOG_v1 {"time_micros": 1565673815114823, "job": 19, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69477339}
+2019/08/13-13:23:35.117823 1bd8 (Original Log Time 2019/08/13-13:23:35.114823) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69477339 bytes OK: base level 1 max bytes base 268435456 files[0 6 3 0 0 0 0] max score 1.43
+2019/08/13-13:23:35.387839 1bd8 (Original Log Time 2019/08/13-13:23:35.118823) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #39 to level-2 69470121 bytes
+2019/08/13-13:23:35.387839 1bd8 (Original Log Time 2019/08/13-13:23:35.387839) EVENT_LOG_v1 {"time_micros": 1565673815387839, "job": 20, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69470121}
+2019/08/13-13:23:35.387839 1bd8 (Original Log Time 2019/08/13-13:23:35.387839) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69470121 bytes OK: base level 1 max bytes base 268435456 files[0 5 4 0 0 0 0] max score 1.17
+2019/08/13-13:23:35.431841 1bd8 (Original Log Time 2019/08/13-13:23:35.387839) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #40 to level-2 69466845 bytes
+2019/08/13-13:23:35.431841 1bd8 (Original Log Time 2019/08/13-13:23:35.431841) EVENT_LOG_v1 {"time_micros": 1565673815431841, "job": 21, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69466845}
+2019/08/13-13:23:35.431841 1bd8 (Original Log Time 2019/08/13-13:23:35.431841) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69466845 bytes OK: base level 1 max bytes base 268435456 files[0 4 5 0 0 0 0] max score 0.91
+2019/08/13-13:43:20.945649 2250 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #42. Immutable memtables: 0.
+2019/08/13-13:43:20.947649 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 22] Syncing log #36
+2019/08/13-13:43:21.047655 1d48 (Original Log Time 2019/08/13-13:43:20.947649) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-13:43:21.051655 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 22] Flushing memtable with next log file: 42
+2019/08/13-13:43:21.051655 1d48 EVENT_LOG_v1 {"time_micros": 1565675001051655, "job": 22, "event": "flush_started", "num_memtables": 1, "num_entries": 145401, "num_deletes": 0, "memory_usage": 65014032, "flush_reason": "Write Buffer Full"}
+2019/08/13-13:43:21.052655 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 22] Level-0 flush table #43: started
+2019/08/13-13:43:22.396732 1d48 EVENT_LOG_v1 {"time_micros": 1565675002395732, "cf_name": "default", "job": 22, "event": "table_file_creation", "file_number": 43, "file_size": 49445184, "table_properties": {"data_size": 47771145, "index_size": 1673114, "filter_size": 0, "raw_key_size": 24449260, "raw_average_key_size": 168, "raw_value_size": 38023367, "raw_average_value_size": 261, "num_data_blocks": 12133, "num_entries": 145401, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-13:43:22.396732 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 22] Level-0 flush table #43: 49445184 bytes OK
+2019/08/13-13:43:22.453735 1d48 (Original Log Time 2019/08/13-13:43:22.396732) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #43 started
+2019/08/13-13:43:22.453735 1d48 (Original Log Time 2019/08/13-13:43:22.452735) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #43: memtable #1 done
+2019/08/13-13:43:22.453735 1d48 (Original Log Time 2019/08/13-13:43:22.453735) EVENT_LOG_v1 {"time_micros": 1565675002453735, "job": 22, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [1, 4, 5, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-13:43:22.453735 1d48 (Original Log Time 2019/08/13-13:43:22.453735) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[1 4 5 0 0 0 0] max score 0.91
+2019/08/13-13:43:22.453735 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 22] Try to delete WAL files size 63744650, prev total WAL file size 63822066, number of live WAL files 2.
+2019/08/13-14:03:40.418399 23c8 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #44. Immutable memtables: 0.
+2019/08/13-14:03:40.420399 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 23] Syncing log #42
+2019/08/13-14:03:40.514404 1d48 (Original Log Time 2019/08/13-14:03:40.420399) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-14:03:40.514404 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 23] Flushing memtable with next log file: 44
+2019/08/13-14:03:40.515404 1d48 EVENT_LOG_v1 {"time_micros": 1565676220514404, "job": 23, "event": "flush_started", "num_memtables": 1, "num_entries": 145397, "num_deletes": 0, "memory_usage": 64998712, "flush_reason": "Write Buffer Full"}
+2019/08/13-14:03:40.515404 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 23] Level-0 flush table #45: started
+2019/08/13-14:03:41.829479 1d48 EVENT_LOG_v1 {"time_micros": 1565676221829479, "cf_name": "default", "job": 23, "event": "table_file_creation", "file_number": 45, "file_size": 49423432, "table_properties": {"data_size": 47750763, "index_size": 1671744, "filter_size": 0, "raw_key_size": 24438946, "raw_average_key_size": 168, "raw_value_size": 38003551, "raw_average_value_size": 261, "num_data_blocks": 12131, "num_entries": 145397, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:03:41.830479 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 23] Level-0 flush table #45: 49423432 bytes OK
+2019/08/13-14:03:42.106495 1d48 (Original Log Time 2019/08/13-14:03:41.830479) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #45 started
+2019/08/13-14:03:42.106495 1d48 (Original Log Time 2019/08/13-14:03:42.106495) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #45: memtable #1 done
+2019/08/13-14:03:42.106495 1d48 (Original Log Time 2019/08/13-14:03:42.106495) EVENT_LOG_v1 {"time_micros": 1565676222106495, "job": 23, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [2, 4, 5, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-14:03:42.106495 1d48 (Original Log Time 2019/08/13-14:03:42.106495) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[2 4 5 0 0 0 0] max score 0.91
+2019/08/13-14:03:42.106495 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 23] Try to delete WAL files size 63715384, prev total WAL file size 63803892, number of live WAL files 2.
+2019/08/13-14:24:05.877491 1888 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #46. Immutable memtables: 0.
+2019/08/13-14:24:05.877491 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 24] Syncing log #44
+2019/08/13-14:24:05.980497 1d48 (Original Log Time 2019/08/13-14:24:05.877491) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-14:24:05.980497 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 24] Flushing memtable with next log file: 46
+2019/08/13-14:24:05.980497 1d48 EVENT_LOG_v1 {"time_micros": 1565677445980497, "job": 24, "event": "flush_started", "num_memtables": 1, "num_entries": 145493, "num_deletes": 0, "memory_usage": 65014208, "flush_reason": "Write Buffer Full"}
+2019/08/13-14:24:05.980497 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 24] Level-0 flush table #47: started
+2019/08/13-14:24:07.108561 1d48 EVENT_LOG_v1 {"time_micros": 1565677447108561, "cf_name": "default", "job": 24, "event": "table_file_creation", "file_number": 47, "file_size": 49443620, "table_properties": {"data_size": 47770345, "index_size": 1672350, "filter_size": 0, "raw_key_size": 24446658, "raw_average_key_size": 168, "raw_value_size": 38018715, "raw_average_value_size": 261, "num_data_blocks": 12137, "num_entries": 145493, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:24:07.108561 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 24] Level-0 flush table #47: 49443620 bytes OK
+2019/08/13-14:24:07.246569 1d48 (Original Log Time 2019/08/13-14:24:07.108561) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #47 started
+2019/08/13-14:24:07.246569 1d48 (Original Log Time 2019/08/13-14:24:07.246569) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #47: memtable #1 done
+2019/08/13-14:24:07.247569 1d48 (Original Log Time 2019/08/13-14:24:07.246569) EVENT_LOG_v1 {"time_micros": 1565677447246569, "job": 24, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [3, 4, 5, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-14:24:07.247569 1d48 (Original Log Time 2019/08/13-14:24:07.246569) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[3 4 5 0 0 0 0] max score 0.91
+2019/08/13-14:24:07.247569 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 24] Try to delete WAL files size 63735727, prev total WAL file size 63808563, number of live WAL files 2.
+2019/08/13-14:44:16.969761 1888 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #48. Immutable memtables: 0.
+2019/08/13-14:44:16.969761 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 25] Syncing log #46
+2019/08/13-14:44:17.070767 1d48 (Original Log Time 2019/08/13-14:44:16.969761) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-14:44:17.070767 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 25] Flushing memtable with next log file: 48
+2019/08/13-14:44:17.070767 1d48 EVENT_LOG_v1 {"time_micros": 1565678657070767, "job": 25, "event": "flush_started", "num_memtables": 1, "num_entries": 145204, "num_deletes": 0, "memory_usage": 64941288, "flush_reason": "Write Buffer Full"}
+2019/08/13-14:44:17.070767 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 25] Level-0 flush table #49: started
+2019/08/13-14:44:18.211832 1d48 EVENT_LOG_v1 {"time_micros": 1565678658211832, "cf_name": "default", "job": 25, "event": "table_file_creation", "file_number": 49, "file_size": 49383914, "table_properties": {"data_size": 47710123, "index_size": 1672866, "filter_size": 0, "raw_key_size": 24415010, "raw_average_key_size": 168, "raw_value_size": 37971712, "raw_average_value_size": 261, "num_data_blocks": 12132, "num_entries": 145204, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:44:18.211832 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 25] Level-0 flush table #49: 49383914 bytes OK
+2019/08/13-14:44:18.267836 1d48 (Original Log Time 2019/08/13-14:44:18.211832) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #49 started
+2019/08/13-14:44:18.267836 1d48 (Original Log Time 2019/08/13-14:44:18.267836) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #49: memtable #1 done
+2019/08/13-14:44:18.267836 1d48 (Original Log Time 2019/08/13-14:44:18.267836) EVENT_LOG_v1 {"time_micros": 1565678658267836, "job": 25, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [4, 4, 5, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-14:44:18.267836 1d48 (Original Log Time 2019/08/13-14:44:18.267836) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[4 4 5 0 0 0 0] max score 1.00
+2019/08/13-14:44:18.268836 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 25] Try to delete WAL files size 63658116, prev total WAL file size 63724258, number of live WAL files 2.
+2019/08/13-14:44:18.268836 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:491] ------- DUMPING STATS -------
+2019/08/13-14:44:18.268836 1bd8 [WARN] [c:\users\aretter\code\rocksdb\db\db_impl.cc:492] 
+** DB Stats **
+Uptime(secs): 45917.0 total, 4857.9 interval
+Cumulative writes: 2769K writes, 2769K keys, 2721K commit groups, 1.0 writes per commit group, ingest: 0.95 GB, 0.02 MB/s
+Cumulative WAL: 2769K writes, 0 syncs, 2769661.00 writes per sync, written: 0.95 GB, 0.02 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 581K writes, 581K keys, 569K commit groups, 1.0 writes per commit group, ingest: 243.05 MB, 0.05 MB/s
+Interval WAL: 581K writes, 0 syncs, 581509.00 writes per sync, written: 0.24 MB, 0.05 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   188.54 MB   1.0      0.0     0.0      0.0       0.7      0.7       0.0   1.0      0.0     41.4        18        16    1.136       0      0
+  L1      4/0   233.00 MB   0.9      0.7     0.6      0.1       0.7      0.6       0.0   1.2     20.9     20.9        32         3   10.632   2503K      0
+  L2      5/0   331.40 MB   0.1      0.0     0.0      0.0       0.0      0.0       0.3   0.0      0.0      0.0         0         0    0.000       0      0
+ Sum     13/0   752.94 MB   0.0      0.7     0.6      0.1       1.4      1.3       0.3   1.9     13.3     28.4        50        19    2.635   2503K      0
+ Int      0/0    0.00 KB   0.0      0.2     0.2      0.0       0.4      0.4       0.2   2.2     12.1     21.8        19         5    3.883    722K      0
+Uptime(secs): 45917.0 total, 4857.9 interval
+Flush(GB): cumulative 0.735, interval 0.184
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 1.39 GB write, 0.03 MB/s write, 0.65 GB read, 0.01 MB/s read, 50.1 seconds
+Interval compaction: 0.41 GB write, 0.09 MB/s write, 0.23 GB read, 0.05 MB/s read, 19.4 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      4/0   188.54 MB   1.0      0.0     0.0      0.0       0.7      0.7       0.0   1.0      0.0     41.4        18        16    1.136       0      0
+  L1      4/0   233.00 MB   0.9      0.7     0.6      0.1       0.7      0.6       0.0   1.2     20.9     20.9        32         3   10.632   2503K      0
+  L2      5/0   331.40 MB   0.1      0.0     0.0      0.0       0.0      0.0       0.3   0.0      0.0      0.0         0         0    0.000       0      0
+ Sum     13/0   752.94 MB   0.0      0.7     0.6      0.1       1.4      1.3       0.3   1.9     13.3     28.4        50        19    2.635   2503K      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0         0         0    0.000       0      0
+Uptime(secs): 45917.0 total, 0.0 interval
+Flush(GB): cumulative 0.735, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 1.39 GB write, 0.03 MB/s write, 0.65 GB read, 0.01 MB/s read, 50.1 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2019/08/13-14:44:18.268836 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1531] [default] [JOB 26] Compacting 4@0 + 1@1 files to L1, score 1.00
+2019/08/13-14:44:18.268836 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1535] [default] Compaction start summary: Base version 25 Base level 0, inputs: [49(47MB) 47(47MB) 45(47MB) 43(47MB)], [41(35MB)]
+2019/08/13-14:44:18.268836 1bd8 EVENT_LOG_v1 {"time_micros": 1565678658268836, "job": 26, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [49, 47, 45, 43], "files_L1": [41], "score": 1, "input_data_size": 235149468}
+2019/08/13-14:44:22.590083 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 26] Generated table #50: 204272 keys, 69462899 bytes
+2019/08/13-14:44:22.590083 1bd8 EVENT_LOG_v1 {"time_micros": 1565678662590083, "cf_name": "default", "job": 26, "event": "table_file_creation", "file_number": 50, "file_size": 69462899, "table_properties": {"data_size": 67111603, "index_size": 2350373, "filter_size": 0, "raw_key_size": 34349316, "raw_average_key_size": 168, "raw_value_size": 53417440, "raw_average_value_size": 261, "num_data_blocks": 17045, "num_entries": 204272, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:44:27.016336 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 26] Generated table #51: 204369 keys, 69462067 bytes
+2019/08/13-14:44:27.016336 1bd8 EVENT_LOG_v1 {"time_micros": 1565678667016336, "cf_name": "default", "job": 26, "event": "table_file_creation", "file_number": 51, "file_size": 69462067, "table_properties": {"data_size": 67111844, "index_size": 2349300, "filter_size": 0, "raw_key_size": 34342431, "raw_average_key_size": 168, "raw_value_size": 53412738, "raw_average_value_size": 261, "num_data_blocks": 17049, "num_entries": 204369, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:44:30.133514 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 26] Generated table #52: 204318 keys, 69462822 bytes
+2019/08/13-14:44:30.133514 1bd8 EVENT_LOG_v1 {"time_micros": 1565678670133514, "cf_name": "default", "job": 26, "event": "table_file_creation", "file_number": 52, "file_size": 69462822, "table_properties": {"data_size": 67110898, "index_size": 2351001, "filter_size": 0, "raw_key_size": 34351456, "raw_average_key_size": 168, "raw_value_size": 53413096, "raw_average_value_size": 261, "num_data_blocks": 17049, "num_entries": 204318, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:44:30.885557 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1211] [default] [JOB 26] Generated table #53: 78673 keys, 26761575 bytes
+2019/08/13-14:44:30.885557 1bd8 EVENT_LOG_v1 {"time_micros": 1565678670885557, "cf_name": "default", "job": 26, "event": "table_file_creation", "file_number": 53, "file_size": 26761575, "table_properties": {"data_size": 25853602, "index_size": 907052, "filter_size": 0, "raw_key_size": 13229100, "raw_average_key_size": 168, "raw_value_size": 20576451, "raw_average_value_size": 261, "num_data_blocks": 6580, "num_entries": 78673, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-14:44:30.886557 1bd8 [c:\users\aretter\code\rocksdb\db\compaction_job.cc:1287] [default] [JOB 26] Compacted 4@0 + 1@1 files to L1 => 235149363 bytes
+2019/08/13-14:44:30.983563 1bd8 (Original Log Time 2019/08/13-14:44:30.983563) [c:\users\aretter\code\rocksdb\db\compaction_job.cc:685] [default] compacted to: base level 1 max bytes base 268435456 files[0 7 5 0 0 0 0] max score 1.65, MB/sec: 18.6 rd, 18.6 wr, level 1, files in(4, 1) out(4) MB in(188.5, 35.7) out(224.3), read-write-amplify(2.4) write-amplify(1.2) OK, records in: 691632, records dropped: 0 output_compression: NoCompression
+2019/08/13-14:44:30.983563 1bd8 (Original Log Time 2019/08/13-14:44:30.983563) EVENT_LOG_v1 {"time_micros": 1565678670983563, "job": 26, "event": "compaction_finished", "compaction_time_micros": 12617721, "output_level": 1, "num_output_files": 4, "total_output_size": 235149363, "num_input_records": 691632, "num_output_records": 691632, "num_subcompactions": 1, "output_compression": "NoCompression", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 7, 5, 0, 0, 0, 0]}
+2019/08/13-14:44:30.997564 1bd8 EVENT_LOG_v1 {"time_micros": 1565678670997564, "job": 26, "event": "table_file_deletion", "file_number": 49}
+2019/08/13-14:44:31.011565 1bd8 EVENT_LOG_v1 {"time_micros": 1565678671011565, "job": 26, "event": "table_file_deletion", "file_number": 47}
+2019/08/13-14:44:31.034566 1bd8 EVENT_LOG_v1 {"time_micros": 1565678671034566, "job": 26, "event": "table_file_deletion", "file_number": 45}
+2019/08/13-14:44:31.056567 1bd8 EVENT_LOG_v1 {"time_micros": 1565678671056567, "job": 26, "event": "table_file_deletion", "file_number": 43}
+2019/08/13-14:44:31.076568 1bd8 EVENT_LOG_v1 {"time_micros": 1565678671076568, "job": 26, "event": "table_file_deletion", "file_number": 41}
+2019/08/13-14:44:31.297581 1bd8 (Original Log Time 2019/08/13-14:44:31.076568) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #38 to level-2 69464000 bytes
+2019/08/13-14:44:31.297581 1bd8 (Original Log Time 2019/08/13-14:44:31.297581) EVENT_LOG_v1 {"time_micros": 1565678671297581, "job": 27, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69464000}
+2019/08/13-14:44:31.297581 1bd8 (Original Log Time 2019/08/13-14:44:31.297581) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69464000 bytes OK: base level 1 max bytes base 268435456 files[0 6 6 0 0 0 0] max score 1.39
+2019/08/13-14:44:31.394586 1bd8 (Original Log Time 2019/08/13-14:44:31.297581) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #50 to level-2 69462899 bytes
+2019/08/13-14:44:31.394586 1bd8 (Original Log Time 2019/08/13-14:44:31.394586) EVENT_LOG_v1 {"time_micros": 1565678671394586, "job": 28, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69462899}
+2019/08/13-14:44:31.394586 1bd8 (Original Log Time 2019/08/13-14:44:31.394586) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69462899 bytes OK: base level 1 max bytes base 268435456 files[0 5 7 0 0 0 0] max score 1.13
+2019/08/13-14:44:31.444589 1bd8 (Original Log Time 2019/08/13-14:44:31.394586) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1835] [default] Moving #52 to level-2 69462822 bytes
+2019/08/13-14:44:31.444589 1bd8 (Original Log Time 2019/08/13-14:44:31.444589) EVENT_LOG_v1 {"time_micros": 1565678671444589, "job": 29, "event": "trivial_move", "destination_level": 2, "files": 1, "total_files_size": 69462822}
+2019/08/13-14:44:31.444589 1bd8 (Original Log Time 2019/08/13-14:44:31.444589) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1864] [default] Moved #1 files to level-2 69462822 bytes OK: base level 1 max bytes base 268435456 files[0 4 8 0 0 0 0] max score 0.87
+2019/08/13-15:04:47.655153 18e8 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #54. Immutable memtables: 0.
+2019/08/13-15:04:47.655153 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 30] Syncing log #48
+2019/08/13-15:04:47.757158 1d48 (Original Log Time 2019/08/13-15:04:47.655153) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-15:04:47.757158 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 30] Flushing memtable with next log file: 54
+2019/08/13-15:04:47.757158 1d48 EVENT_LOG_v1 {"time_micros": 1565679887757158, "job": 30, "event": "flush_started", "num_memtables": 1, "num_entries": 145313, "num_deletes": 0, "memory_usage": 65014344, "flush_reason": "Write Buffer Full"}
+2019/08/13-15:04:47.757158 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 30] Level-0 flush table #55: started
+2019/08/13-15:04:49.359250 1d48 EVENT_LOG_v1 {"time_micros": 1565679889359250, "cf_name": "default", "job": 30, "event": "table_file_creation", "file_number": 55, "file_size": 49436516, "table_properties": {"data_size": 47757822, "index_size": 1677769, "filter_size": 0, "raw_key_size": 24444217, "raw_average_key_size": 168, "raw_value_size": 38010320, "raw_average_value_size": 261, "num_data_blocks": 12158, "num_entries": 145313, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-15:04:49.359250 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 30] Level-0 flush table #55: 49436516 bytes OK
+2019/08/13-15:04:49.497258 1d48 (Original Log Time 2019/08/13-15:04:49.359250) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #55 started
+2019/08/13-15:04:49.497258 1d48 (Original Log Time 2019/08/13-15:04:49.497258) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #55: memtable #1 done
+2019/08/13-15:04:49.497258 1d48 (Original Log Time 2019/08/13-15:04:49.497258) EVENT_LOG_v1 {"time_micros": 1565679889497258, "job": 30, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [1, 4, 8, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-15:04:49.497258 1d48 (Original Log Time 2019/08/13-15:04:49.497258) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[1 4 8 0 0 0 0] max score 0.87
+2019/08/13-15:04:49.497258 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 30] Try to delete WAL files size 63726488, prev total WAL file size 63831476, number of live WAL files 2.
+2019/08/13-15:24:57.879373 1974 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #56. Immutable memtables: 0.
+2019/08/13-15:24:57.879373 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 31] Syncing log #54
+2019/08/13-15:24:57.980379 1d48 (Original Log Time 2019/08/13-15:24:57.879373) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-15:24:57.980379 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 31] Flushing memtable with next log file: 56
+2019/08/13-15:24:57.980379 1d48 EVENT_LOG_v1 {"time_micros": 1565681097980379, "job": 31, "event": "flush_started", "num_memtables": 1, "num_entries": 145349, "num_deletes": 0, "memory_usage": 65014104, "flush_reason": "Write Buffer Full"}
+2019/08/13-15:24:57.980379 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 31] Level-0 flush table #57: started
+2019/08/13-15:24:59.907489 1d48 EVENT_LOG_v1 {"time_micros": 1565681099907489, "cf_name": "default", "job": 31, "event": "table_file_creation", "file_number": 57, "file_size": 49423477, "table_properties": {"data_size": 47748831, "index_size": 1673721, "filter_size": 0, "raw_key_size": 24426752, "raw_average_key_size": 168, "raw_value_size": 37999733, "raw_average_value_size": 261, "num_data_blocks": 12150, "num_entries": 145349, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-15:24:59.908490 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 31] Level-0 flush table #57: 49423477 bytes OK
+2019/08/13-15:24:59.999495 1d48 (Original Log Time 2019/08/13-15:24:59.908490) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #57 started
+2019/08/13-15:25:00.000495 1d48 (Original Log Time 2019/08/13-15:24:59.999495) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #57: memtable #1 done
+2019/08/13-15:25:00.000495 1d48 (Original Log Time 2019/08/13-15:24:59.999495) EVENT_LOG_v1 {"time_micros": 1565681099999495, "job": 31, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [2, 4, 8, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-15:25:00.000495 1d48 (Original Log Time 2019/08/13-15:24:59.999495) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[2 4 8 0 0 0 0] max score 0.87
+2019/08/13-15:25:00.000495 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 31] Try to delete WAL files size 63698782, prev total WAL file size 63817570, number of live WAL files 2.
+2019/08/13-15:45:14.731973 6f0 [c:\users\aretter\code\rocksdb\db\db_impl_write.cc:1373] [default] New memtable created with log file: #58. Immutable memtables: 0.
+2019/08/13-15:45:14.731973 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:80] [JOB 32] Syncing log #56
+2019/08/13-15:45:14.907984 1d48 (Original Log Time 2019/08/13-15:45:14.731973) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:1424] Calling FlushMemTableToOutputFile with column family [default], flush slots available 1, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2019/08/13-15:45:14.907984 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:301] [default] [JOB 32] Flushing memtable with next log file: 58
+2019/08/13-15:45:14.907984 1d48 EVENT_LOG_v1 {"time_micros": 1565682314907984, "job": 32, "event": "flush_started", "num_memtables": 1, "num_entries": 145457, "num_deletes": 0, "memory_usage": 65014088, "flush_reason": "Write Buffer Full"}
+2019/08/13-15:45:14.907984 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:331] [default] [JOB 32] Level-0 flush table #59: started
+2019/08/13-15:45:16.004046 1d48 EVENT_LOG_v1 {"time_micros": 1565682316004046, "cf_name": "default", "job": 32, "event": "table_file_creation", "file_number": 59, "file_size": 49420220, "table_properties": {"data_size": 47748638, "index_size": 1670657, "filter_size": 0, "raw_key_size": 24424608, "raw_average_key_size": 167, "raw_value_size": 37994537, "raw_average_value_size": 261, "num_data_blocks": 12139, "num_entries": 145457, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/08/13-15:45:16.004046 1d48 [c:\users\aretter\code\rocksdb\db\flush_job.cc:371] [default] [JOB 32] Level-0 flush table #59: 49420220 bytes OK
+2019/08/13-15:45:16.061049 1d48 (Original Log Time 2019/08/13-15:45:16.004046) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:377] [default] Level-0 commit table #59 started
+2019/08/13-15:45:16.061049 1d48 (Original Log Time 2019/08/13-15:45:16.061049) [c:\users\aretter\code\rocksdb\db\memtable_list.cc:409] [default] Level-0 commit table #59: memtable #1 done
+2019/08/13-15:45:16.061049 1d48 (Original Log Time 2019/08/13-15:45:16.061049) EVENT_LOG_v1 {"time_micros": 1565682316061049, "job": 32, "event": "flush_finished", "output_compression": "NoCompression", "lsm_state": [3, 4, 8, 0, 0, 0, 0], "immutable_memtables": 0}
+2019/08/13-15:45:16.061049 1d48 (Original Log Time 2019/08/13-15:45:16.061049) [c:\users\aretter\code\rocksdb\db\db_impl_compaction_flush.cc:177] [default] Level summary: base level 1 max bytes base 268435456 files[3 4 8 0 0 0 0] max score 0.87
+2019/08/13-15:45:16.061049 1d48 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:342] [JOB 32] Try to delete WAL files size 63692460, prev total WAL file size 63752266, number of live WAL files 2.
+2019/08/13-16:02:35.020475 200c [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2019/08/13-16:02:35.307491 200c [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete
